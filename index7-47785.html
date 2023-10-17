@@ -7,15 +7,19 @@
 </head>
 <body>
 
+
     <!-- Menu nawigacyjne -->
     <nav>
         <ul>
            <li><a href="#about-us">About us</a></li>
            <li><a href="#skills">Skills</a></li>
            <li><a href="#portfolio">Portfolio</a></li>
-           <li><a href="#contacts">Contacts</a></li>
+           <li><a href="#ontact">Contact</a></li>
         </ul>
      </nav>
+
+<br><hr><br>
+     
 
      <!-- Sekcja "About us" -->
      <!-- section.about-us>h3{About us}+p{tu będzie coś o nas} -->
@@ -24,7 +28,8 @@
         <p>tu będzie coś o nas</p>
      </section>
 
-
+<br><hr><br>
+     
 
      <!-- Sekcja "Skills" -->
      <!-- section.skills>h3{Skills}+div.skill>(li.h4{skill $}+p{tekst})*4 -->
@@ -42,6 +47,8 @@
         </div>
      </section>
 
+<br><hr><br>
+   
 
      <!-- Sekcja "Portfolio" -->
      <section class="portfolio">
@@ -53,7 +60,33 @@
         </div>
      </section>
 
+<br><hr><br>
+     
 
+     <!-- Sekcja "Contact" -->
+     <section class="contact">
+        <h3>Anna Kowalska</h3>
+
+        <adres>
+            Anna Kowalska<br>
+            tel. + 48 111 222 222<br>
+            ul. Palmowa 3/5<br>
+            00-010 Warszawa<br><br><br>
+        </adres>
+        
+        <form action="/action_page.php">
+            <label for="fname">Imię:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="temat">Temat:</label><br>
+            <input type="text" id="temat" name="temat" required><br><br>
+            <textarea name="pole-kontaktu" id="pole-kontaktu" required cols="30" rows="10"></textarea><br><br>
+            <input type="submit" value="Wyślij"><br>
+        </form>
+
+     </section>
+     
+<br><hr><br>
+     
 
     </body>
 </html>
