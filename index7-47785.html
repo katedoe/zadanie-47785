@@ -9,21 +9,20 @@
 
 
     <!-- Menu nawigacyjne -->
-    <nav>
+     <nav>
         <ul>
            <li><a href="#about-us">About us</a></li>
            <li><a href="#skills">Skills</a></li>
            <li><a href="#portfolio">Portfolio</a></li>
-           <li><a href="#ontact">Contact</a></li>
+           <li><a href="#contact">Contact</a></li>
         </ul>
      </nav>
 
 <br><hr><br>
      
 
-     <!-- Sekcja "About us" -->
-     <!-- section.about-us>h3{About us}+p{tu będzie coś o nas} -->
-     <section class="about-us">
+    <!-- Sekcja "About us" -->
+     <section id="about-us">
         <h3>About us</h3>
         <p>tu będzie coś o nas</p>
      </section>
@@ -31,48 +30,57 @@
 <br><hr><br>
      
 
-     <!-- Sekcja "Skills" -->
-     <!-- section.skills>h3{Skills}+div.skill>(li.h4{skill $}+p{tekst})*4 -->
-     <section class="skills">
+    <!-- Sekcja "Skills" -->
+     <section id="skills">
         <h3>Skills</h3>
-        <div class="skill">
-            <li class="h4">skill 1</li>
-            <p>tekst</p>
-            <li class="h4">skill 2</li>
-            <p>tekst</p>
-            <li class="h4">skill 3</li>
-            <p>tekst</p>
-            <li class="h4">skill 4</li>
-            <p>tekst</p>
-        </div>
+            <div class="skill">
+                <h4>skill 1</h4>
+                <p>Tekst</p>
+            </div>
+            <div class="skill">
+                <h4>skill 2</h4>
+                <p>Tekst</p>
+            </div>
+            <div class="skill">
+                <h4>skill 3</h4>
+                <p>Tekst</p>
+            </div>
+            <div class="skill">
+                <h4>skill 4</h4>
+                <p>Tekst</p>
+            </div>
      </section>
 
 <br><hr><br>
    
 
-     <!-- Sekcja "Portfolio" -->
-     <section class="portfolio">
+    <!-- Sekcja "Portfolio" -->
+     <section id="portfolio">
         <h3>Portfolio</h3>
-        <div>
-            <li>portfolio-item</li><img src="img/1.jpg" alt="creative thinking">
-            <li>portfolio-item</li><img src="img/2.jpg" alt="computer skills">
-            <li>portfolio-item</li><img src="img/3.jpg" alt="singing">
-        </div>
+            <div class="portfolio-item">
+                <img src="img/1.jpg" alt="creative thinking">
+            </div>
+            <div class="portfolio-item">
+                <img src="img/2.jpg" alt="computer skills">
+            </div>
+            <div class="portfolio-item">
+                <img src="img/3.jpg" alt="singing">
+            </div>
      </section>
 
 <br><hr><br>
      
 
-     <!-- Sekcja "Contact" -->
-     <section class="contact">
+    <!-- Sekcja "Contact" -->
+     <section id="contact">
         <h3>Anna Kowalska</h3>
 
-        <adres>
+        <adress>
             Anna Kowalska<br>
             tel. + 48 111 222 222<br>
             ul. Palmowa 3/5<br>
             00-010 Warszawa<br><br><br>
-        </adres>
+        </adress>
         
         <form action="/action_page.php">
             <label for="fname">Imię:</label><br>
